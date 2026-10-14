@@ -131,7 +131,7 @@ def get_many_bursts(sm, kick_mode, num_reps):
 
 
 def graph_capacitance():
-    single_ended = False # Single ended vs cross capacitence mode.
+    single_ended = True # Single ended vs cross capacitence mode.
 
     max_hashes = 150     # width of ascii graph
     hash_per_ns = 5      # Graph scale (can also be less than 1)
